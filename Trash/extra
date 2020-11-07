@@ -1,0 +1,459 @@
+
+    <div class="main">
+        <div class="main-center-text">
+            Lets Do This<br>
+            and this<br>
+            and this. 
+        </div>
+        <ul>
+            <li id="checkbox1">
+            <input type="checkbox" id="checkbox1.1" class="checkbox">
+            <label for="checkbox1.1">I pleadge to do<br> some something something</label>
+            </li>
+            <li id="checkbox2">
+                <input type="checkbox" id="checkbox1.2" class="checkbox">
+                <label for="checkbox1.2">I pleadge to do<br> some something something</label> 
+            </li>
+            <li id="checkbox3">
+                <input type="checkbox" id="checkbox1.3" class="checkbox">
+                <label for="checkbox1.3">I pleadge to do<br> some something something</label>     
+            </li>
+            <li id="checkbox4">
+                <input type="checkbox" id="checkbox1.4" class="checkbox">
+                <label for="checkbox1.4">I pleadge to do<br> some something something</label> 
+            </li>
+            <li id="checkbox5">
+                <input type="checkbox" id="checkbox1.5" class="checkbox">
+                <label for="checkbox1.5">I pleadge to do<br> some something something</label> 
+            </li>
+            <li id="checkbox6">
+                <input type="checkbox" id="checkbox1.6" class="checkbox">
+                <label for="checkbox1.6">I pleadge to do<br> some something something</label> 
+            </li>
+        </ul>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.main{
+    width: 100%;
+    height: 85vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2.3vh;
+    margin-top: 3.84vh;
+    
+}
+
+.main-center-text{
+    position: absolute;
+    top: 48%;
+    left: 44%;
+    width: 24vh;
+    height: 24vh;
+    font-size: 4vh;
+    font-weight: bold;
+}
+
+.main li{
+    position: absolute;
+    list-style-type: none;
+}
+input[type="checkbox"]{
+    display: none;
+}
+#checkbox1{
+    transform: rotate(0) translate(-32vh) rotate(0);
+    margin: -7%;
+}
+#checkbox2{
+    transform: rotate(60deg) translate(-32vh) rotate(-60deg);
+    margin: -7%;
+}
+#checkbox3{
+    transform: rotate(120deg) translate(-32vh) rotate(-120deg);
+    margin: -7%;
+}
+#checkbox4{
+    transform: rotate(180deg) translate(-32vh) rotate(-180deg);
+    margin: -7%;
+}
+#checkbox5{
+    transform: rotate(240deg) translate(-32vh) rotate(-240deg);
+    margin: -7%;
+}
+#checkbox6{
+    transform: rotate(300deg) translate(-32vh) rotate(-300deg);
+    margin: -7%;
+}
+
+.main ul li label{
+    font-weight: bold;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    width: 24vh;
+    height: 24vh;
+    border-radius: 50%;
+    position: relative;
+}
+.main ul li label::before{
+    content: "";
+    background: url("Assets/check-circle.svg");
+    background-position: center;
+    background-size: contain;
+    width: 36px;
+    height: 36px;
+    position: absolute;
+    left: -21px;
+    top: 50px;
+    
+    transform: scale(0) rotateZ(180deg);
+    transition: all 0.4s cubic-bezier(0.54, 0.01,0, 1.49);
+}
+
+input[type="checkbox"]:checked + label::before{
+    transform: scale(1) rotateZ(0deg);
+}
+
+
+
+
+
+
+    position: fixed;
+    width: 100%;
+    top: 0;
+
+
+
+
+<div class="main-sec-checkbox">
+            <input type="checkbox" id="checkbox1" class="checkbox">
+            <label for="checkbox1" class="checkbox"> Check2</label>
+        </div>
+        
+
+
+
+
+    <div class="main-section">
+        <div class="main-sec-head" id="sec-head">
+            .main-sec-head
+        </div>
+
+        <div class="main-sec-checkbox">
+            <input type="checkbox" id="checkbox1" onclick="myFunction1()">
+            <label for="checkbox1" class="checkbox" id="checkbox1"> check1</label>
+        </div>
+        
+        <div class="main-sec-checkbox">
+            <input type="checkbox" id="checkbox2" onclick="myFunction2()">
+            <label for="checkbox2" class="checkbox" id="checkbox2"> check2</label>
+        </div>
+        
+        <div class="main-sec-checkbox">
+            <input type="checkbox" id="checkbox3" onclick="myFunction3()">
+            <label for="checkbox3" class="checkbox" id="checkbox3"> check3</label>
+        </div>
+        
+        <div class="main-sec-checkbox">
+            <input type="checkbox" id="checkbox4" onclick="myFunction4()">
+            <label for="checkbox4" class="checkbox" id="checkbox4"> check4</label>
+        </div>
+        
+        <div class="main-sec-checkbox">
+            <input type="checkbox" id="checkbox5" onclick="myFunction5()">
+            <label for="checkbox5" class="checkbox" id="checkbox5"> check5</label>
+        </div>
+        
+        <div class="main-sec-checkbox">
+            <input type="checkbox" id="checkbox6" onclick="myFunction6()">
+            <label for="checkbox6" class="checkbox" id="checkbox6"> check6</label>
+        </div>
+        
+        
+    </div>
+
+    <div class="story-section">
+
+    </div>
+
+    <div class="footer">
+        <div class="logo">
+            LOGO
+            <div class="below-logo">
+                <div>
+                    Follow us on
+                </div>
+                
+                <span class="banner-icon">
+                <i class="icofont-facebook"></i>
+                <i class="icofont-instagram"></i>
+            </span>
+            </div>
+        </div>
+        <div class="about">ABOUT FOUNDATION<br><br>
+        <span>    
+            1000andyou is a campaign incubated by TYCIA Foundation to support 1000 Korku girls in Khandwa District, Madhya Pradesh.
+        </span>
+        </div>
+        <div class="info">
+            INFORMATION<br>
+            <br>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About Campaign</a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="cr">
+        Copyright © 2020 UD. All rights reserved.
+    </div>
+
+    </div>
+
+
+
+    <div class="main-section">
+        <div class="main-sec-head" id="sec-head">
+            .main-sec-head
+        </div>
+
+        <div class="main-sec-checkbox">
+            <input type="checkbox" id="checkbox1" onclick="myFunction1()">
+            <label for="checkbox1" class="checkbox" id="checkbox1"> check1</label>
+        </div>
+        
+        <div class="main-sec-checkbox">
+            <input type="checkbox" id="checkbox2" onclick="myFunction2()">
+            <label for="checkbox2" class="checkbox" id="checkbox2"> check2</label>
+        </div>
+        
+        <div class="main-sec-checkbox">
+            <input type="checkbox" id="checkbox3" onclick="myFunction3()">
+            <label for="checkbox3" class="checkbox" id="checkbox3"> check3</label>
+        </div>
+        
+        <div class="main-sec-checkbox">
+            <input type="checkbox" id="checkbox4" onclick="myFunction4()">
+            <label for="checkbox4" class="checkbox" id="checkbox4"> check4</label>
+        </div>
+        
+        <div class="main-sec-checkbox">
+            <input type="checkbox" id="checkbox5" onclick="myFunction5()">
+            <label for="checkbox5" class="checkbox" id="checkbox5"> check5</label>
+        </div>
+        
+        <div class="main-sec-checkbox">
+            <input type="checkbox" id="checkbox6" onclick="myFunction6()">
+            <label for="checkbox6" class="checkbox" id="checkbox6"> check6</label>
+        </div>
+        
+        
+    </div>
+
+    <div class="story-section">
+
+    </div>
+
+
+
+
+
+
+function myFunction1(){
+    var mainSec = document.getElementById("sec-head")
+
+    var checkBox1 = document.getElementById("checkbox1");
+
+    if (checkBox1.checked == true)
+    {
+        counter++;
+        if(counter==6)
+        {
+            hash=hash+1;
+            mainSec.textContent="#" + hash;
+        }
+    }
+    else{
+        mainSec.textContent=".main-sec-head"
+        if(counter==6)
+        {
+            hash=hash-1;
+        }
+        counter--;
+    }    
+}
+
+
+function myFunction2(){
+    var mainSec = document.getElementById("sec-head")
+
+    var checkBox2 = document.getElementById("checkbox2");
+
+    if (checkBox2.checked == true)
+    {
+        counter++;
+        if(counter==6)
+        {
+            hash=hash+1;
+            mainSec.textContent="#" + hash;
+        }
+    }
+    else{
+        mainSec.textContent=".main-sec-head";
+        if(counter==6)
+        {
+            hash=hash-1;
+        }
+        counter--;
+
+    }    
+}
+
+
+function myFunction3(){
+    var mainSec = document.getElementById("sec-head")
+
+    var checkBox3 = document.getElementById("checkbox3");
+   
+    if (checkBox3.checked == true)
+    {
+        counter++;
+        if(counter==6)
+        {
+            hash=hash+1;
+            mainSec.textContent="#" + hash;;
+        }
+    }
+    else{
+        mainSec.textContent=".main-sec-head";
+        if(counter==6)
+        {
+            hash=hash-1;
+        }
+        counter--;
+
+    }    
+}
+
+
+function myFunction4(){
+    var mainSec = document.getElementById("sec-head")
+
+    var checkBox4 = document.getElementById("checkbox4");
+
+    if (checkBox4.checked == true)
+    {
+        counter++;
+        if(counter==6)
+        {
+            hash=hash+1;
+            mainSec.textContent="#" + hash;
+        }
+    }
+    else{
+        mainSec.textContent=".main-sec-head";
+        if(counter==6)
+        {
+            hash=hash-1;
+        }
+        counter--;
+
+    }    
+}
+
+
+function myFunction5(){
+    var mainSec = document.getElementById("sec-head")
+
+    var checkBox5 = document.getElementById("checkbox5");
+
+    if (checkBox5.checked == true)
+    {
+        counter++;
+        if(counter==6)
+        {
+            hash=hash+1;
+            mainSec.textContent="#" + hash;
+        }
+    }
+    else{
+        mainSec.textContent=".main-sec-head";
+        if(counter==6)
+        {
+            hash=hash-1;
+        }
+        counter--;
+
+    }    
+}
+
+
+function myFunction6(){
+    var mainSec = document.getElementById("sec-head")
+
+    var checkBox6 = document.getElementById("checkbox6");
+
+    if (checkBox6.checked == true)
+    {
+        counter++;
+        if(counter==6)
+        {
+            hash=hash+1;
+            mainSec.textContent="#" + hash;
+        }
+    }
+    else{
+        mainSec.textContent=".main-sec-head";
+        if(counter==6)
+        {
+            hash=hash-1;
+        }
+        counter--;
+    }    
+}
+
+
+var counter=0;
+var hash=0;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
