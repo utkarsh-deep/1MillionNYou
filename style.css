@@ -44,7 +44,7 @@
   box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3);
 }
 
-.logo {
+.logo a{
   margin-right: auto;
   margin-left: 4vw;
   font-size: 5.12vh;
@@ -115,12 +115,12 @@
   justify-content: center;
   width: 11vw;
   height: 11vw;
-  position: absolute;
+  position: absolute; 
   top: 50%;
   transform: translate(-50%, -50%);
   left: 50%;
   font-size: 1.17vw;
-  font-weight: bold;
+  font-weight: 800!important;
 }
 
 .checker-center-border {
