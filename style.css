@@ -54,6 +54,7 @@
 }
 .logo:hover{
   cursor: pointer;
+  text-decoration: none;
 
 }
 
@@ -119,6 +120,7 @@
   transform: translate(-50%, -50%);
   left: 50%;
   font-size: 1.17vw;
+  font-weight: bold;
 }
 
 .checker-center-border {
