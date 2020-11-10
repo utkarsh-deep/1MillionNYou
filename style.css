@@ -44,18 +44,18 @@
   box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3);
 }
 
-.logo a{
+.logo{
   margin-right: auto;
   margin-left: 4vw;
   font-size: 5.12vh;
   letter-spacing: 5px;
   font-weight: bolder;
   text-shadow: 0 1px 4px rgba(0, 0, 0, 0.3);
-  text-decoration: none;
 
 }
-.logo:hover{
+.logo a:hover{
   cursor: pointer;
+  text-decoration: none;
 
 }
 
